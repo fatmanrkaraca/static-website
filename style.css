@@ -1,0 +1,326 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=New+Tegomin&family=Poppins:wght@300&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 20px;
+  font-family: "Oswald", sans-serif;
+  color: #b1b4bd;
+  background-color: rgb(234, 248, 250);
+}
+
+a {
+  color: rgb(159, 163, 163);
+  font-weight: 400;
+}
+
+a:hover {
+  color: orange;
+}
+
+.header-background {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)),
+    url(image/maldives-1532172_1920.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.sticky-nav {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0px;
+  padding: 20px;
+  z-index: 1;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  -ms-grid-row-align: auto;
+  align-self: auto;
+  -webkit-box-ordinal-group: 1;
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  background-color: rgba(12, 32, 59, 0.5);
+}
+
+.navbar .navbar-brand a {
+  padding: 1rem 0;
+  display: block;
+  text-decoration: none;
+}
+
+.navbar-brand {
+  font-size: 2.2 rem;
+  color: white;
+}
+
+.navbar-toggler {
+  border: none;
+  padding: 10px 6px;
+  outline: none;
+}
+
+.navbar-toggler span {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border: 1px;
+  background: white;
+}
+
+.navbar-toggler span + span {
+  margin-top: 4px;
+  width: 22px;
+}
+
+.navbar-toggler span + span + span {
+  width: 22px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 1.4rem 1rem;
+  font-size: 1.2rem;
+  position: relative;
+}
+.navbar-expand-lg .navbar-nav .nav-link.active {
+  color: orange;
+}
+
+.btn {
+  background: transparent;
+  color: white;
+  border-radius: 10px;
+  padding: 0.8rem 1.3rem;
+  font-size: 1.2rem;
+}
+
+.btn:hover {
+  background: linear-gradient(rgb(223, 147, 33), rgb(226, 172, 88));
+  color: white;
+}
+
+.heading {
+  font-size: 2.1rem;
+  font-weight: bold;
+  line-height: 1.4rem;
+  text-align: center;
+  color: white;
+  margin-top: 310px;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 8px;
+  min-height: 100px;
+}
+/*--------------------------------------------- About us------------------------------------- */
+.column-left {
+  min-height: 750px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url(image/i.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll, scroll;
+  object-fit: cover;
+}
+
+.column-right .section-title {
+  margin-top: 60px;
+  padding: 5rem 0rem 1rem 5rem;
+  font-size: 2.8rem;
+  color: rgba(7, 118, 138, 0.6);
+  font-weight: 500;
+  text-align: initial;
+}
+.paragraph {
+  margin-top: 8px;
+  padding: 1rem 3rem 1rem 3rem;
+  font-size: 1.1rem;
+  line-height: 1.1;
+  text-align: justify;
+  color: rgb(159, 163, 163);
+}
+
+/*--------------------------------services-------------------------------*/
+.service-right img {
+  width: 240px;
+  height: 240px;
+  border-radius: 25%;
+  margin: 5px;
+}
+.service-right {
+  margin-top: 60px;
+}
+.icon {
+  font-size: 2em;
+  color: rgb(233, 161, 93);
+  text-align: center;
+  margin: 20px 10px;
+}
+.service-left {
+  margin-top: 15px;
+  padding: 5rem 2rem 0 5rem;
+}
+.services-h1 {
+  font-size: 2.5rem;
+  color: rgba(7, 118, 138, 0.6);
+  text-align: initial;
+}
+.service-p {
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: rgb(159, 163, 163);
+  text-align: justify;
+}
+/*---------------------------------team-----------------------------*/
+.team {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.team-p {
+  text-align: justify;
+}
+.team-h {
+  font-size: 2.5rem;
+  color: rgba(7, 118, 138, 0.6);
+  font-family: "Oswald", sans-serif;
+}
+.row h5 {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.4rem;
+  color: rgba(7, 118, 138, 0.6);
+}
+.row {
+  text-align: center;
+}
+.row small {
+  font-size: 1rem;
+  color: rgba(7, 118, 138, 0.6);
+}
+.icon-team {
+  font-size: 20px;
+  color: rgb(231, 143, 12);
+  margin: 2px;
+  cursor: pointer;
+}
+.icon-team:hover {
+  transform: scale(1.2);
+}
+.col,
+.order-5,
+.order-1 {
+  border: 2px solid;
+  border-radius: 10%;
+  margin: 20px;
+}
+/*contact*/
+.contact-section {
+  color:rgb(231, 143, 12);
+   text-align: left;
+}
+.paragraph-c{
+ color:black;
+ font-size: 1.3rem;
+}
+
+.fa-phone,
+.fa-envelope-square {
+  color: rgb(231, 143, 12);
+  margin-right: 5px;
+}
+.bttn {
+  background-color: rgb(231, 143, 12);
+  border-radius: 30%;
+  margin: 15px 80px 15px 80px;
+  width: 200px;
+  height: 40px;
+  color: white;
+  border: none;
+  box-shadow: none;
+}
+.bttn:hover {
+  transform: scale(1.2);
+}
+
+.form-control {
+  max-width: 500px;
+  height: 40px;
+}
+.textarea {
+  height: 100px;
+  width: 500px;
+  border: 1px;
+}
+.textarea:hover{
+  background-color: rgb(231, 143, 12);
+  border: none;
+}
+.textarea ,
+.form-control {
+  background:whitesmoke;
+  border-radius: 3rem;
+  font-weight: 300;
+  outline: medium none;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  font-family: "Oswald", sans-serif;
+  line-height: 1.2;
+  color:black;
+  margin-bottom: 1rem;
+  transition: all 0.2s ease-in-out;
+  text-align: left;
+}
+.form-control:hover{
+  background-color: rgb(231, 143, 12);
+  box-shadow: none;
+  border: none;
+}
+
+.left-center-part a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+}
+.left-center-part{
+  text-align: left;
+}
+#contact {
+  max-height: 700px;
+  background-image:url(image/i2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll, scroll;
+  object-fit: cover;
+  margin: 0;
+}
+
+.input-group ::placeholder {
+  color:black;
+  opacity: 1;
+}
+.design:hover{
+  color: black;
+}
+.gotopbtn .fa{
+font-size: 28px;
+margin-top: 10px;
+color: white;
+}
+.gotopbtn{
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 40px;
+ background-color: rgb(231, 143, 12);
+ right: 50px;
+ text-decoration: none;
+ text-align: center;
+ line-height: 50px;
+}
+.gotopbtn:hover{
+  background: transparent;
+}
