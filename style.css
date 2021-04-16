@@ -120,7 +120,7 @@ a:hover {
 .column-left {
   min-height: 750px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url(image/i.jpg);
+    url(image/beach-666122_1280.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: scroll, scroll;
@@ -217,7 +217,7 @@ a:hover {
   border-radius: 10%;
   margin: 20px;
 }
-/*contact*/
+/*-----------------------------------------------------contact-------------------------*/
 .contact-section {
   color:rgb(231, 143, 12);
    text-align: left;
@@ -238,7 +238,7 @@ a:hover {
   margin: 15px 80px 15px 80px;
   width: 200px;
   height: 40px;
-  color: white;
+  color: whitesmoke;
   border: none;
   box-shadow: none;
 }
@@ -250,18 +250,17 @@ a:hover {
   max-width: 500px;
   height: 40px;
 }
-.textarea {
+textarea {
   height: 100px;
   width: 500px;
-  border: 1px;
+ 
 }
-.textarea:hover{
+textarea:hover{
   background-color: rgb(231, 143, 12);
   border: none;
 }
-.textarea ,
-.form-control {
-  background:whitesmoke;
+textarea , .form-control{
+  background: transparent;
   border-radius: 3rem;
   font-weight: 300;
   outline: medium none;
@@ -273,6 +272,7 @@ a:hover {
   margin-bottom: 1rem;
   transition: all 0.2s ease-in-out;
   text-align: left;
+  border: 1px solid whitesmoke;
 }
 .form-control:hover{
   background-color: rgb(231, 143, 12);
@@ -288,20 +288,21 @@ a:hover {
 .left-center-part{
   text-align: left;
 }
-#contact {
-  max-height: 700px;
-  background-image:url(image/i2.jpg);
-  background-size: cover;
-  background-position: center;
-  background-attachment: scroll, scroll;
-  object-fit: cover;
-  margin: 0;
+#contact{
+   max-height: 700px;
+   background-image:url(image/i.jpg) ;
+   background-size: cover;
+   background-position: center;
+   background-attachment: scroll,scroll;
+   object-fit: cover;
+   margin: 0;
 }
 
 .input-group ::placeholder {
   color:black;
   opacity: 1;
 }
+
 .design:hover{
   color: black;
 }
